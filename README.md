@@ -6,7 +6,7 @@
       🚀 Live Site
     </a>
     |
-    <a href="" target="_blank">
+    <a href="https://www.frontendmentor.io/solutions/responsive-article-preview-component-w-sass-and-dark-mode-lX-En3QJV6" target="_blank">
       💡 Solution
     </a>
   </h5>
