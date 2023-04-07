@@ -1,0 +1,59 @@
+.popup-contents {
+  background-color: var(--Very-Dark-Grayish-Blue-pop);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: var(--Grayish-Blue);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-radius: 0 0 var(--radius) var(--radius);
+  gap: 1rem;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  padding: 0 1.5rem;
+
+  transition: all 0.1s ease-in-out;
+  transform: scale(0.7);
+  transform-origin: right;
+  visibility: hidden;
+  opacity: 0;
+
+  @media screen and (min-width: $bp-mobile) {
+    max-width: 15rem;
+    right: -12%;
+    bottom: 5rem;
+    border-radius: var(--radius);
+    height: 4rem;
+    justify-content: center;
+    z-index: 8;
+    transform-origin: bottom;
+
+    .share-icon {
+      display: none;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%) rotate(45deg);
+      background-color: var(--Very-Dark-Grayish-Blue-pop);
+    }
+  }
+
+  .share-icon {
+    margin-left: auto;
+    background-color: var(--Desaturated-Dark-Blue);
+  }
+}
+
+.show {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}

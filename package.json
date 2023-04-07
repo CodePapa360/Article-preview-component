@@ -1,7 +1,7 @@
 {
   "name": "article-preview-component",
   "version": "1.0.0",
-  "description": "<h1 align=\"center\">Article Preview Component</h1>",
+  "description": "Article Preview Component",
   "web": "./dist/index.html",
   "targets": {
     "web": {
