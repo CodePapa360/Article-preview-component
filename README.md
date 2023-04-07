@@ -21,7 +21,7 @@
 
 <a align="center" href="https://article-preview-component-alamin.netlify.app/" target="_blank">
 
-<img src="screenshots/"/>
+<img src="screenshots/Compared - Article preview component Frontend Mentor - Alamin.png"/>
 </a>
 
 ### The challenge
@@ -41,8 +41,6 @@ Users should be able to:
 - JavaScript
 - Mobile-first workflow
 - NPM
-
-### What I learned
 
 ## Installation
 
@@ -81,11 +79,13 @@ npm start
 
 Feel free to contact me with any questions or feedback!
 
-## Acknowledgments
-
 ## Show your support
 
 Give a ⭐️ if you liked this project!
+
+## Acknowledgments
+
+I would like to express my gratitude to Frontend Mentor for providing this project idea and design. Their platform is an excellent resource for web developers looking to improve their skills.
 
 ## License
 
